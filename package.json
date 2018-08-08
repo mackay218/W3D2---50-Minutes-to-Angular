@@ -1,0 +1,23 @@
+{
+  "name": "w3d2---50-minutes-to-angular",
+  "version": "1.0.0",
+  "description": "50 Minute Angular Activity Please do a git commit at each step.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mackay2588/W3D2---50-Minutes-to-Angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mackay2588/W3D2---50-Minutes-to-Angular/issues"
+  },
+  "homepage": "https://github.com/mackay2588/W3D2---50-Minutes-to-Angular#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
