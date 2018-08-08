@@ -7,10 +7,10 @@ const bodyParser = require('body-parser');
 
 //globals
 //port to listen on
-const port = process.env.PORT || 5000;
+const port = 5000;
 
 //uses
-
+app.use(express.static('server/public'));
 
 
 //server listen
