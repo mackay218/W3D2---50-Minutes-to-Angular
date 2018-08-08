@@ -6,14 +6,16 @@
     <title>Food App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
-    <script type="text/javascript" src="vendors/angular.js"></script>
-    <script type="text/javascriot" src="scripts/client.js"></script>
+    <script src="vendors/angular.min.js"></script>
+    <script src="scripts/client.js"></script>
 
 </head>
 <body ng-app="FoodApp">
-    <div ng-controller="FoodController">
-        <input type="text" ng-model="foodStuffIn" />
-        <p>({foodStuffIn})</p>
+    <div ng-controller="FoodController as fc">
+        <input type="text" placeholder="food" ng-model="fc.foodStuffIn" />
+        <p>{{fc.foodStuffIn}}</p>
+        <button ng-click="fc.addFood()">Add Food</button>
+        <p>{{fc.foodArr}}</p>
     </div>
 </body>
 </html>
